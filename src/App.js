@@ -41,6 +41,7 @@ componentDidMount(){
     
     return (
       <div className="App">
+        <h1 className='app-title'> Monster World</h1>
         <SearchBox className = 'monsters-search-box' onChangeHandler = { onSearchChange }  placeholder ='search monster'/>
         <CardList monsters = {filteredMonsters}/> 
       </div>
